@@ -1,0 +1,244 @@
+body {
+    background-color: rgb(27, 36, 48);
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(27, 36, 48);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(60, 78, 102);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(214, 213, 168);
+}
+
+
+.marca {
+    /* font-family: 'Edu VIC WA NT Beginner', cursive; */
+    font-size: 1.5rem;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+a.marca:hover {
+    color: rgb(228, 113, 41);
+}
+
+.navbar {
+    background-color: rgb(27, 36, 48);
+}
+
+.navbar-toggler {
+    color: rgb(214, 213, 168);
+}
+
+.navbar a {
+    color: rgb(214, 213, 168);
+}
+
+.navbar a:hover {
+    color: rgb(228, 113, 41);
+}
+
+.navbar a:active{
+    color: rgb(214, 213, 168);
+}
+
+main section.productos {
+    background-image: linear-gradient(to right,
+            rgba(90, 88, 88, 0.815),
+            rgba(207, 207, 207, 0.671)),
+        url("../img/fondos/fondo-productos.avif");
+    background-position: 50%;
+    background-size: cover;
+}
+
+section.nosotros div.img-nosotros {
+    background-image: url("../img/fondos/fondo-quienes_somos.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a.btn-productos,
+a.btn-nosotros {
+    /* padding:0.6rem; */
+    background-color: rgb(228, 113, 41);
+    color: black;
+}
+
+a.btn-productos:hover {
+    background-color: rgb(248, 157, 100);
+}
+
+a.btn-nosotros:hover {
+    background-color: rgb(248, 157, 100);
+}
+
+div.descripcion {
+    background-color: rgb(27, 36, 48);
+}
+
+div.sucursales {
+    background-image: linear-gradient(to right,
+            rgba(15, 15, 15, 0.589),
+            rgba(116, 112, 112, 0.219)),
+        url("../img/fondos/fondo-conocenos.jpg");
+    background-position: 50%;
+    background-size: cover;
+}
+
+section.servicio .container,
+section.servicio {
+    background-color: rgb(233, 195, 171);
+}
+
+section.servicio .container div img {
+    width: 2rem;
+}
+
+div.redes-sociales ul li a img {
+    width: 2rem;
+}
+
+div.contacto ul li img {
+    width: 1.5rem;
+}
+
+/* Productos */
+section.productos-cafe,
+section.cafeteras,
+section.productos-accesorios {
+    background: linear-gradient(70deg, rgb(31, 28, 28), rgb(163, 83, 8));
+}
+
+section.cafeteras div.card,
+section.productos-cafe div.card,
+section.productos-accesorios div.card {
+    width: 10rem;
+    height: 14rem;
+}
+
+section.cafeteras div.card img,
+section.productos-cafe div.card img,
+section.productos-accesorios div.card img {
+    height: 9rem;
+    width: 7rem;
+}
+
+/* Nosotros */
+div.sobre-nosotros {
+    background-color: rgb(233, 195, 171);
+}
+
+.sobre-nosotros p.sobre-nosotros img,
+.sobre-nosotros p.cafe-especialidad img {
+    width: 13rem;
+    height: 13rem;
+}
+
+.sobre-nosotros-img img {
+    width: 9rem;
+    height: 9rem;
+}
+
+/* CONTACTO */
+main.contacto {
+    background-image: url("../img/fondos/fondo-contacto.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.informacion-contacto,
+.formulario-contacto {
+    background-color: rgba(27, 36, 48, 0.747);
+}
+
+button.enviar-formulario {
+    background-color: rgb(248, 157, 100);
+}
+
+button.enviar-formulario:hover {
+    background-color: rgb(228, 113, 41);
+}
+
+/* Sucursales */
+main.sucursales {
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.589),
+            rgba(78, 76, 76, 0.425)),
+        url("../img/fondos/fondo-sucursales.jpg");
+    background-position: 50%;
+    background-size: cover;
+}
+
+main.sucursales table {
+    background-color: rgba(27, 36, 48, 0.747);
+}
+
+/* Footer */
+footer {
+    margin-top: 3vh;
+    border-top: 1px solid rgb(233, 195, 171);
+    font-size: 0.8rem;
+}
+
+footer div.derechos {
+    background-color: black;
+}
+
+footer div.derechos a:hover {
+    padding: 1px;
+    background-color: rgba(228, 113, 41, 0.781);
+}
+
+
+/* @media screen and(max-width: 576px){
+    .contacto {
+        border-top: 1px solid white;
+    
+     }
+
+    }    
+ @media screen and(min-width: 576px){
+        footer {
+            border: none;
+        
+         }
+    
+ 
+} */
+
+@media screen and (min-width: 768px) {
+    div.sucursales-contacto {
+        height: 60vh;
+    }
+
+    section.servicio {
+        height: 30vh;
+    }
+
+    section.productos {
+        height: 60vh;
+    }
+
+    .tabla-sucursales {
+        width: 80vw;
+    }
+
+    div.sobre-nosotros {
+        width: 70vw;
+    }
+
+   
+}
